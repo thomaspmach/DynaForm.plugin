@@ -17,7 +17,7 @@ How to use:
   
   
   
-  The three first attributes in the Json are required, "url" is the url that will be send the ajax post, "token" and "secret" are about the autentication intelligence of the service. The object "fields" is where you configure your form, but first you need to know form creates two text inputs called "Nome" and "Email" by default. If you want only the inputs "Nome" and "Email" the only thing that you need to do is let the object "fields" empty, like this:
+  The three first attributes in the Json are required, "url" is the url that will be send the ajax post, "token" and "secret" are about the autentication intelligence of the service. The object "fields" is where you configure your form, but first you need to know that form creates two text inputs called "Nome" and "Email" by default. If you want only the inputs "Nome" and "Email" the only thing that you need to do is let the object "fields" empty, like this:
   
   { 'url':'#', 
     'token':'62bb61431348e22850828a5829c4373faafe29c1', 
@@ -49,7 +49,7 @@ How to use:
   
   
   
-  To create a select input put a array with more than one element in the object "fields", the values in the array will be the options of the selector, the JSON below shows this, the result form of this JSON is this image: http://imgur.com/D1qeOJr
+  To create a select input put a array with more than one element in the object "fields", the values in the array will be the options of the selector, the JSON below shows this. The result form of this JSON is in this image: http://imgur.com/D1qeOJr
   
   options = { 'url':'#', 
               'token':'62bb61431348e22850828a5829c4373faafe29c1', 
