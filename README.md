@@ -26,7 +26,7 @@ How to use:
   };
   
   
-  
+   
   To creat a text input, is simple, only put a empty array in the object "fields", like this:
   
   options = { 'url':'#', 
