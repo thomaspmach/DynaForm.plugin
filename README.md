@@ -35,11 +35,12 @@ How to use:
               'fields': { 'test':[] } 
             };
     
-  The name of the array will be in the left of the form, this image show this:   *************************
+  The name of the array will be in the left of the form, this image show this: http://imgur.com/BPHlbkG
   
   
   
-  You can put a lot of text inputs in the form, configure like you want! The JSON below creates the form in this image: ***********
+  You can put a lot of text inputs in the form, configure like you want! The JSON below creates the form in this image: http://imgur.com/j70At9b
+  
   options = { 'url':'#', 
               'token':'62bb61431348e22850828a5829c4373faafe29c1', 
               'secret':'51a266c2844ccd5cac83d88de88d82d05358aa51', 
@@ -48,7 +49,7 @@ How to use:
   
   
   
-  To create a select input put a array with more than one element in the object "fields", the values in the array will be the options of the selector, the JSON below shows this, the result form of this JSON is this image **********
+  To create a select input put a array with more than one element in the object "fields", the values in the array will be the options of the selector, the JSON below shows this, the result form of this JSON is this image: http://imgur.com/D1qeOJr
   
   options = { 'url':'#', 
               'token':'62bb61431348e22850828a5829c4373faafe29c1', 
@@ -58,7 +59,7 @@ How to use:
   
   
   
-  You can mix the text and the selector inputs, like in the JSON below, and make a big form! Image: *****************************************
+  You can mix the text and the selector inputs, like in the JSON below, and make a big form! Image: http://imgur.com/q8iKhXK
   
   options = { 'url':'#', 
   	      'token':'62bb61431348e22850828a5829c4373faafe29c1', 
