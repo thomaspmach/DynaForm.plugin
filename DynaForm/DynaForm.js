@@ -13,7 +13,6 @@ function submitDynaform(formId, postURL) {          //send json to endpoint
 	var $form = $("#dynamicForm");
 	var formData = getFormData($form);
 	formData = JSON.stringify(formData);
-	alert(formData);
 	$.ajax({
 		type: 'POST',
 		url: postURL,
