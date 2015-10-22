@@ -21,7 +21,7 @@ function submitDynaform(formId, postURL) {          //send json to endpoint
 			alert('Sucess!!!! Your data has been sent.');
 		},
 		error: function(data){
-			//http status code 500, 404, etc
+			//http status code 200 etc
 			alert('Error! Your data has not been sent.');
 		},
 	});
