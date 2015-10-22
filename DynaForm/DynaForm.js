@@ -33,8 +33,8 @@ $.fn.dynaform = function(formOpt) {
 	
 	if (formOpt.token) $('#dynamicForm').append($("<input type=hidden name=token value='"+formOpt.token+"'></input>"));
 	if (formOpt.secret) $('#dynamicForm').append($("<input type=hidden name=secret value='"+formOpt.secret+"'></input>"));
-	$("<p>").html('Nome<input name="nome" type="text" class="form-group entrada" placeholder="Nome Completo">').appendTo("#dynamicForm");
-    $("<p>").html('Email<input name="email" class="form-group entrada" type="email">').appendTo("#dynamicForm");
+	$("<p>").html('Nome<input name="nome" type="text" class="form-group entrada" placeholder="Nome Completo" required>').appendTo("#dynamicForm");
+    $("<p>").html('Email<input name="email" class="form-group entrada" type="email" required>').appendTo("#dynamicForm");
 	
 		$.each(formOpt.fields, function (fieldName, fieldValue) {
 		 
