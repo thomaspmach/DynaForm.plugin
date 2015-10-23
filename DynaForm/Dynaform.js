@@ -18,7 +18,7 @@ function submitDynaform(formId, postURL) {          //send json to endpoint
 		url: postURL,
 		data: formData,
 		success: function(data){
-			alert('Sucess!!!! Your data has been sent.');
+			alert('Success!!!! Your data has been sent.');
 		},
 		error: function(data){
 			//http status code 200 etc
